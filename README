@@ -1,0 +1,41 @@
+WebShortcutUtil version 0.10
+============================
+
+Perl module for reading and writing web shortcut files.
+This module is part of the WebShortcutUtil suite.  For more details
+see the main website at http://beckus.github.io/WebShortcutUtil/ .
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Mac::PropertyList - Only required when reading/writing an Apple ".webloc" shortcut.
+
+The "t/samples" folder contains samples from the following repository:
+  http://github.com/beckus/WebShortcutSamples
+
+I chose not to use a Git submodule for this - Github does not
+include the submodule when creating the downloadable tar/zip file.
+If the WebShortcutSamples repository is updated, the changes
+need to be manually applied in the local folder.
+Sample files that contain unicode (as well as special characters)
+have been omitted from the MANIFEST file.  This prevents warnings
+when building on a system with limited support for unicode.
+
+COPYRIGHT AND LICENCE
+
+Put the correct copyright and licence information here.
+
+Copyright (C) 2013 by Andre Beckus
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as the Perl 5 programming language itself.

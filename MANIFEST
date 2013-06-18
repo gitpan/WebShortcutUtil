@@ -1,0 +1,59 @@
+Changes
+lib/WebShortcutUtil.pm
+lib/WebShortcutUtil/Read.pm
+lib/WebShortcutUtil/Write.pm
+Makefile.PL
+MANIFEST
+README
+t/00-WebShortcutUtil.t
+t/01-Read.t
+t/02-Write.t
+t/samples/fake/desktop/ApplicationType.desktop
+t/samples/fake/desktop/CommentsAndBlankLines.desktop
+t/samples/fake/desktop/Empty.desktop
+t/samples/fake/desktop/GarbledEntry.desktop
+t/samples/fake/desktop/GarbledHeader.desktop
+t/samples/fake/desktop/HeaderOnly.desktop
+t/samples/fake/desktop/LotsOfWhitespace.desktop
+t/samples/fake/url/GarbledEntry.url
+t/samples/fake/url/HeaderOnly.url
+t/samples/fake/url/LotsOfWhitespace.url
+t/samples/fake/webloc/xml/MissingDictionary.webloc
+t/samples/fake/webloc/xml/MissingUrl.webloc
+t/samples/README.md
+t/samples/real/desktop/gnome/Google.desktop
+'t/samples/real/desktop/gnome/renamed/Link to Google - renamed.desktop'
+t/samples/real/desktop/gnome/Yahoo!.desktop
+t/samples/real/desktop/kde/http___cn.yahoo.com_.desktop
+t/samples/real/desktop/kde/http___japan.zdnet.com_.desktop
+t/samples/real/desktop/kde/http___www.baidu.com_.desktop
+t/samples/real/desktop/kde/http___www.microsoft.com_sv-se_default.aspx.desktop
+t/samples/real/desktop/kde/http___www.myspace.com_.desktop
+t/samples/real/desktop/kde/http___www.yahoo.com_.desktop
+t/samples/real/desktop/kde/http___xn--fet810g.xn--fiqs8s_.desktop
+t/samples/real/desktop/kde/https___www.google.com_.desktop
+t/samples/real/url/Chrome/Google.url
+'t/samples/real/url/Chrome/Myspace - Social Entertainment.url'
+t/samples/real/url/Chrome/Yahoo!.url
+t/samples/real/url/Firefox/Google.URL
+'t/samples/real/url/Firefox/Myspace Social Entertainment.URL'
+t/samples/real/url/Firefox/Yahoo!.URL
+t/samples/real/url/IE/cn.yahoo.com.url
+'t/samples/real/url/IE/Google - sverige.url'
+t/samples/real/url/IE/Google.url
+t/samples/real/url/IE/japan.zdnet.com.url
+'t/samples/real/url/IE/Myspace  Social Entertainment.url'
+t/samples/real/url/IE/Yahoo!.url
+t/samples/real/webloc/binary/Google.webloc
+t/samples/real/webloc/binary/Yahoo!.webloc
+t/samples/real/webloc/xml/Google.webloc
+t/samples/real/webloc/xml/Yahoo!.webloc
+t/samples/real/website/IE10/Google.website
+'t/samples/real/website/IE10/Microsoft Corporation.website'
+'t/samples/real/website/IE10/Myspace  Social Entertainment.website'
+t/samples/real/website/IE10/Yahoo!.website
+t/samples/real/website/IE9/Google.website
+'t/samples/real/website/IE9/Microsoft Corporation.website'
+'t/samples/real/website/IE9/Myspace  Social Entertainment.website'
+t/samples/real/website/IE9/Yahoo!.website
+t/samples/VERSION

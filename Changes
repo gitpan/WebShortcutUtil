@@ -1,0 +1,8 @@
+Revision history for Perl extension WebShortcutUtil.
+
+0.10  Tue Jun 18 16:00:00 2013
+    - Initial beta version for CPAN
+
+0.01  Tue Jan  1 13:59:59 2013
+	- original version; created by h2xs 1.23 with options
+		-XAn WebShortcutUtil
