@@ -1,5 +1,5 @@
-WebShortcutUtil version 0.10
-============================
+WebShortcutUtil
+===============
 
 Perl module for reading and writing web shortcut files.
 This module is part of the WebShortcutUtil suite.  For more details

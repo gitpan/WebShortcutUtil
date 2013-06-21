@@ -4,7 +4,7 @@ use 5.006_001;
 use strict;
 use warnings;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 use Carp;
 use File::Basename;
@@ -144,7 +144,8 @@ sub _create_filename {
 
     # The valid characters are listed below in ASCII order.
     # Essentially this means we are excluding: "%*/<>?\^| (along with any control characters)
-    my $clean_name = $name =~ s/[^ !#\$&'\(\)+,\-\.,0-9;=\@A-Z\[\]_`a-z\{\}~\x{0080}-\x{FFFF}]//gr;
+    my $clean_name = $name;
+    $clean_name =~ s/[^ !#\$&'\(\)+,\-\.,0-9;=\@A-Z\[\]_`a-z\{\}~\x{0080}-\x{FFFF}]//g;
 
     if($clean_name eq "") {
         $clean_name = "_";
